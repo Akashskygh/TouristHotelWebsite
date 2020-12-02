@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!--
+   Author: Akash Ghosh
+   ID: T00658089
+   -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, intial-scale=1.0">
+   <title>Results</title>
+   
+   <style type="text/css">
+   div{
+   padding:20px;
+   }
+   body{
+   background-image:url(Background.jpg);
+   background-position:center;
+   background-size:cover;
+   font-family:sans-serif;
+   margin:auto;
+   }
+   form{
+   font-size:25px;
+   text-align:center;
+   background-color:rgba(0,128,128,0.9);
+   border: 1px solid black;
+   border-radius:20px;
+   }
+   a{
+   font-weight:bold;
+   color:purple;
+   }
+   </style>
+   
+</head>
+
+<body>
+   <form action="Results Info.html" method="GET">
+   <div id="results"></div>
+   <div><a href="Booking Form.html">Back To Form</a></div>
+   <script>
+   const resultsList = document.getElementById('results')
+   new URLSearchParams(window.location.search).forEach((value,name) => {
+   resultsList.append(`${name}: ${value}`)
+   resultsList.append(document.createElement('br'))
+   })
+   </script>
+</body>
+
+</html>
