@@ -1,1 +1,1 @@
-"# TouristHotelWebsiteProject" 
+This HTML template is versatile for hotel/resort websites. Customize content, images, and links in each section. Ensure responsiveness across devices. Use sections like the image slider, room details, amenities, and reviews to showcase features. Include social media links and contact details for guest communication. Highlight "The Paradise's" luxury to entice visitors and drive bookings.
